@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge - Encriptar/Desencriptar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <h1 class="titulo">Código secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <p class="subtitulo">Mensaje a procesar</p>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui..." pattern="[a-z]" title="Ingrese letras en minusculas sin acentos ni simbolos" required>
+        <p class="nota">ingrese solo minusculas sin acento ni simbolos</p>
+        <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
+        <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <p class="subtitulo">Mensaje encriptado:</p>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+    </section>
+  </main>
+  <footer>
+    <p class="pie-pagina">autor:  <strong>tecnopulsar 2022</strong></p>    
+    <p class="pie-pagina">github:  <strong>https://github.com/tecnopulsar/challengeonelogicalatam.git</strong></p>   
+    </footer>
+</body>
+</html>
